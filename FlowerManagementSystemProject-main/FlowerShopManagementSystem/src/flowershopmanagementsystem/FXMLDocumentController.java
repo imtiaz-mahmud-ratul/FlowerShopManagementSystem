@@ -57,7 +57,7 @@ public class FXMLDocumentController implements Initializable {
             prepare.setString(2, password.getText());
             
             result = prepare.executeQuery();
-            
+            //For Alert
             Alert alert;
             
             if(username.getText().isEmpty() || password.getText().isEmpty()){

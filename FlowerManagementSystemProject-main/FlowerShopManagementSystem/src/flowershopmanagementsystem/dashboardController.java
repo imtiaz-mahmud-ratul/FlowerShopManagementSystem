@@ -834,7 +834,7 @@ public class dashboardController implements Initializable {
 
         purchase_tableView.setItems(purchaseListD);
     }
-
+//Update me 
     private int customerId;
 
     public void purchaseCustomerId() {

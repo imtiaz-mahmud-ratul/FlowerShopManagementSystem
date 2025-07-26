@@ -243,11 +243,7 @@ public class dashboardController implements Initializable {
         
     }
     
-//    THATS IT FOR THIS VIDEO, THANKS FOR WATCHING! : ) 
-    
-//    SUPPORT OUR CHANNEL BY SUBSCRIBING AND LIKE THIS VIDEOS 
-//    THANKS FOR YOUR SUPPORT GUYS!!!
-    
+
     public void homeChart(){
         
         home_chart.getData().clear();
@@ -909,7 +905,7 @@ public class dashboardController implements Initializable {
             home_btn.setStyle("-fx-background-color: transparent");
             purchase_btn.setStyle("-fx-background-color: transparent");
 
-            // TO SHOW THE UPDATED TABLEVIEW ONCE YOU CLICKED THE AVAILABLE FLOWERS BUTTON
+            // TO SHOW THE UPDATED TABLEVIEW ONCE I CLICKED THE AVAILABLE FLOWERS BUTTON
             availableFlowersShowListData();
             availableFlowersStatus();
             availableFlowersSearch();
